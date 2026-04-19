@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" style="background:#f8fafc;font-family:Arial,sans-serif">
+  <text x="280" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Union-Find (Disjoint Set) — How It Works</text>
+  <text x="280" y="50" text-anchor="middle" font-size="11" fill="#64748b">Path Compression + Union by Rank · Prevents cycles in MST</text>
+  <text x="280" y="80" text-anchor="middle" font-size="12" fill="#7c3aed" font-weight="bold">Before Union</text>
+  <ellipse cx="120" cy="130" rx="70" ry="38" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="120" y="112" text-anchor="middle" font-size="10" fill="#7c3aed" font-weight="bold">Set A</text>
+  <text x="120" y="132" text-anchor="middle" font-size="10" fill="#374151">Alpha</text>
+  <text x="120" y="146" text-anchor="middle" font-size="10" fill="#374151">Beta</text>
+  <ellipse cx="280" cy="130" rx="70" ry="38" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="280" y="112" text-anchor="middle" font-size="10" fill="#7c3aed" font-weight="bold">Set B</text>
+  <text x="280" y="132" text-anchor="middle" font-size="10" fill="#374151">Gamma</text>
+  <text x="280" y="146" text-anchor="middle" font-size="10" fill="#374151">Epsilon</text>
+  <ellipse cx="440" cy="130" rx="70" ry="38" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="440" y="112" text-anchor="middle" font-size="10" fill="#7c3aed" font-weight="bold">Set C</text>
+  <text x="440" y="132" text-anchor="middle" font-size="10" fill="#374151">Delta</text>
+  <text x="440" y="146" text-anchor="middle" font-size="10" fill="#374151">Zeta</text>
+  <text x="280" y="195" text-anchor="middle" font-size="20" fill="#94a3b8">↓</text>
+  <text x="280" y="215" text-anchor="middle" font-size="11" fill="#64748b">unionSets() merges components</text>
+  <text x="280" y="240" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="bold">After Union (MST Complete)</text>
+  <ellipse cx="280" cy="295" rx="220" ry="38" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="280" y="290" text-anchor="middle" font-size="10" fill="#15803d" font-weight="bold">Single Connected Component</text>
+  <text x="280" y="308" text-anchor="middle" font-size="10" fill="#374151">Alpha · Beta · Gamma · Delta · Epsilon · Zeta</text>
+</svg>

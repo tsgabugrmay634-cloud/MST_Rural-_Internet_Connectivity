@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="420" style="background:#f8fafc;font-family:Arial,sans-serif">
+  <text x="250" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">MST — Small Graph Demo (6 Villages)</text>
+  <text x="250" y="46" text-anchor="middle" font-size="11" fill="#64748b">Kruskal's Algorithm · Green = MST edges</text>
+  <line x1="202.5" y1="210" x2="155" y2="60" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="250" y1="135" x2="440" y2="247.5" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="202.5" y1="210" x2="440" y2="247.5" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="60" y1="360" x2="345" y2="360" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="345" y1="360" x2="250" y2="135" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="60" y1="360" x2="250" y2="135" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="440" y1="247.5" x2="155" y2="60" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="60" y1="360" x2="155" y2="60" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="60" y1="360" x2="440" y2="247.5" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="345" y1="360" x2="155" y2="60" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="202.5" y1="210" x2="250" y2="135" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="226.25" y="167.5" text-anchor="middle" font-size="10" fill="#15803d">2.24</text>
+  <line x1="250" y1="135" x2="155" y2="60" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="202.5" y="92.5" text-anchor="middle" font-size="10" fill="#15803d">2.83</text>
+  <line x1="345" y1="360" x2="440" y2="247.5" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="392.5" y="298.75" text-anchor="middle" font-size="10" fill="#15803d">3.61</text>
+  <line x1="60" y1="360" x2="202.5" y2="210" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="131.25" y="280" text-anchor="middle" font-size="10" fill="#15803d">5.00</text>
+  <line x1="202.5" y1="210" x2="345" y2="360" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="273.75" y="280" text-anchor="middle" font-size="10" fill="#15803d">5.00</text>
+  <circle cx="60" cy="360" r="18" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="60" y="364" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Alpha</text>
+  <circle cx="202.5" cy="210" r="18" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="202.5" y="214" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Beta</text>
+  <circle cx="345" cy="360" r="18" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="345" y="364" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Gamma</text>
+  <circle cx="250" cy="135" r="18" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="250" y="139" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Delta</text>
+  <circle cx="440" cy="247.5" r="18" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="440" y="251.5" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Epsilon</text>
+  <circle cx="155" cy="60" r="18" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="155" y="64" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Zeta</text>
+  <line x1="30" y1="400" x2="60" y2="400" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="65" y="404" font-size="11" fill="#374151">MST Edge</text>
+  <line x1="140" y1="400" x2="170" y2="400" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+  <text x="175" y="404" font-size="11" fill="#374151">Skipped Edge</text>
+</svg>

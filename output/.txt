@@ -1,0 +1,110 @@
+========================================
+RURAL INTERNET CONNECTIVITY PROJECT
+Minimum Spanning Tree using Kruskal's Algorithm
+========================================
+
+Part 1: Demonstration with Small Graph
+----------------------------------------
+
+========================================
+DEMONSTRATION: Small Graph (6 Villages)
+========================================
+
+
+========================================
+MINIMUM SPANNING TREE - CABLE NETWORK
+========================================
+
+Villages Connected (Total: 6 villages)
+Cables Required: 5 connections
+
+Connection Details:
+------------------------------------------------------------
+From Village	To Village	Distance (km)
+------------------------------------------------------------
+Beta		Delta		2.24
+Delta		Zeta		2.83
+Gamma		Epsilon		3.61
+Alpha		Beta		5.00
+Beta		Gamma		5.00
+------------------------------------------------------------
+Total Cable Length Required: 18.67 km
+========================================
+
+MST Verification: Valid (Connected and Acyclic)
+
+========================================
+KRUSKAL'S ALGORITHM - STEP BY STEP
+========================================
+
+Step 1: Sort all edges by weight (ascending order)
+
+Top 10 smallest edges:
+  Edge: Beta - Delta (Distance: 2.24 km)
+  Edge: Delta - Zeta (Distance: 2.83 km)
+  Edge: Gamma - Epsilon (Distance: 3.61 km)
+  Edge: Beta - Zeta (Distance: 4.12 km)
+  Edge: Alpha - Beta (Distance: 5.00 km)
+  Edge: Beta - Gamma (Distance: 5.00 km)
+  Edge: Delta - Epsilon (Distance: 5.00 km)
+  Edge: Beta - Epsilon (Distance: 5.10 km)
+  Edge: Alpha - Gamma (Distance: 6.00 km)
+  Edge: Gamma - Delta (Distance: 6.32 km)
+
+Step 2: Process edges in order, adding if no cycle is formed
+
+Processing edge 1: Beta - Delta (2.24 km)
+  ✓ Added to MST (Edge #1)
+Processing edge 2: Delta - Zeta (2.83 km)
+  ✓ Added to MST (Edge #2)
+Processing edge 3: Gamma - Epsilon (3.61 km)
+  ✓ Added to MST (Edge #3)
+Processing edge 4: Beta - Zeta (4.12 km)
+  ✗ Skipped (Would create cycle)
+Processing edge 5: Alpha - Beta (5.00 km)
+  ✓ Added to MST (Edge #4)
+Processing edge 6: Beta - Gamma (5.00 km)
+  ✓ Added to MST (Edge #5)
+
+Step 3: Result contains 5 edges (V-1 = 5)
+Step 4: Verify no cycles and all villages are connected
+
+
+
+Part 2: Large Scale Implementation
+----------------------------------------
+Generating network with 100 villages...
+
+Large Network Statistics:
+  Number of Villages: 100
+  MST Connections: 99
+  Total Cable Length: 698.45 km
+
+Verifying Large Network MST:
+MST Verification: Valid (Connected and Acyclic)
+ERROR!
+Error: Could not create file mst_results.csv
+
+========================================
+COMPLEXITY ANALYSIS
+========================================
+Kruskal's Algorithm Complexity:
+  - Sorting edges: O(E log E)
+  - Union-Find operations: O(E α(V))
+  - Overall: O(E log E)
+
+Where:
+  V = Number of villages = 100
+  E = Number of possible connections = 4950
+  α = Inverse Ackermann function (practically constant)
+
+Space Complexity: O(V + E)
+  - Village array: O(V)
+  - Edge array: O(E)
+  - Union-Find structures: O(V)
+
+========================================
+PROJECT COMPLETED SUCCESSFULLY
+========================================
+
+
